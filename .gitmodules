@@ -1,0 +1,9 @@
+[submodule "Android"]
+	path = Android
+	url = git://github.com/cobaltians-plugins/plugins-ActionPicker-Android.git
+[submodule "iOS"]
+	path = iOS
+	url = git://github.com/cobaltians-plugins/plugins-ActionPicker-iOS.git
+[submodule "Web"]
+	path = Web
+	url = git://github.com/cobaltians-plugins/plugins-ActionPicker-Web.git
