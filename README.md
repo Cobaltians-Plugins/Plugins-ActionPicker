@@ -17,9 +17,8 @@ use the cobalt.actionPicker shortcut like this
         cancel : "Cancel", // ios only (name of cancel button)
     },function(data){
         cobalt.log('picker callback', data)
-        document.getElementById('choiceField').innerHTML = "Choice #"+JSON.stringify(data.index);
         
-        if(data.index==1) { //do some stuff }
+        if(data.index==1) { /*do some stuff*/ }
     });
 
 function(data) allow you to do stuff when you click on an action.
