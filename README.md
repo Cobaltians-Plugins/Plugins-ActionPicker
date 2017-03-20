@@ -1,9 +1,9 @@
-#ActionPicker Plugin
+# ActionPicker Plugin
 
 ActionPicker plugin allows you to show a list of action and make callback for them.
 
 
-##How to use
+## How to use
 
 * import the plugin to your project as explained [here](https://github.com/cobaltians/cobalt/wiki/Plugins-usage)
 * Add the cobalt.actionpicker.js to your web JS folder
@@ -19,6 +19,7 @@ use the cobalt.actionPicker shortcut like this
         cobalt.log('picker callback', data)
         
         if(data.index==1) { /*do some stuff*/ }
+        //if data.index === -1, picker has been cancelled.
     });
 
 function(data) allow you to do stuff when you click on an action.
