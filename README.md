@@ -1,9 +1,9 @@
-#ActionPicker Plugin
+# ActionPicker Plugin
 
 ActionPicker plugin allows you to show a list of action and make callback for them.
 
 
-##How to use
+## How to use
 
 * import the plugin to your project as explained [here](https://github.com/cobaltians/cobalt/wiki/Plugins-usage)
 * Add the cobalt.actionpicker.js to your web JS folder
