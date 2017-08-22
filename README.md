@@ -19,6 +19,7 @@ use the cobalt.actionPicker shortcut like this
         cobalt.log('picker callback', data)
         
         if(data.index==1) { /*do some stuff*/ }
+        //if data.index === -1, picker has been cancelled.
     });
 
 function(data) allow you to do stuff when you click on an action.
